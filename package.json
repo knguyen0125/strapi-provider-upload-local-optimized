@@ -1,0 +1,35 @@
+{
+  "name": "strapi-provider-upload-local-optimized",
+  "version": "3.0.0-beta.17.5",
+  "description": "An optimized strapi upload provider",
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "k.nguyen0125@gmail.com",
+    "name": "knguyen0125"
+  },
+  "keywords": [
+    "upload",
+    "strapi"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.23.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:knguyen0125/strapi-provider-upload-local-optimized.git"
+  }
+}
